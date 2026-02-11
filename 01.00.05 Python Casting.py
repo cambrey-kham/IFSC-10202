@@ -13,12 +13,12 @@ strval3 = "5a"
 print (int(intval1))
 print (int(intval2))
 print (int(intval3)) 
-print (int(floatval1))	       # Note that 2.8 becomes 2
-print (int(floatval2))	       # Note that -4.6 becomes -4
+print (int(floatval1))	       
+print (int(floatval2))	       
 print (int(floatval3))
 print (int(strval1))
-print (int(strval2))	       # Note you will get an error here
-#print (int(strval3)) 	   # Note you will get an error here
+#print (int(strval2))	       
+#print (int(strval3)) 	   
   
 print (float(intval1))
 print (float(intval2))
@@ -28,7 +28,7 @@ print (float(floatval2))
 print (float(floatval3))
 print (float(strval1))
 print (float(strval2))
-#print (float(strval3))		# Note you will get an error here
+#print (float(strval3))		
   
 print (str(intval1))
 print (str(intval2))
